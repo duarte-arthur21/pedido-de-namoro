@@ -8,8 +8,16 @@
 </head>
 <body>
     <p id="text">Já faz um tempo que queria te falar isso... <br></p>
-    <audio id="audio" src="" preload="auto"></audio>
+    <audio id="audio" src="https://www.myinstants.com/pt/instant/clemovitch-stand-by-me-60102/?utm_source=copy&utm_medium=share" preload="auto"></audio>
 
     <button id="playButton" onclick="namoraComigo()">Clique aqui ❤️</button>
 </body>
+
+<script>
+    function namoraComigo() {
+       audio.play();
+       text.textContent = "Aceita namorar comigo? 💍";
+       playButton.style.display = "none";
+    }
+</script>
 </html>
